@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Dancing+Script&family=Passion+One:wght@400;700&family=Salsa&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Dancing+Script&family=Passion+One&family=Salsa&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 50px;
+    font-size: 1.2vw;
+    font-family: var(--fonte1);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte1);
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    white-space: pre-line;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-left: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.primeiro {
+    padding-top: 0vh;
+}
+
+.imagem {
+    background: url('imagens/background001.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+.imagem2 {
+    background: url('imagens/background002.jpg') center no-repeat fixed;
+    background-size: cover;
+}
+
+.imagem2 p {
+    background-color: rgba(0, 0, 0, 0.233);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+footer p {
+    font-family: var(--fonte1);
+    padding: 5px;
+}
